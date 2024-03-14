@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(215, 223, 227);
+    padding: 18px 80px;
+}
+
+.navbar .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+}
+.navbar .right button{
+    border-radius: 5px;
+    border: none;
+    padding: 10px 13px;
+    font-weight: bold;
+    background-color: rgb(174, 248, 217);
+}

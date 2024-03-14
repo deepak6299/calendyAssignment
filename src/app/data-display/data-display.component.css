@@ -1,0 +1,25 @@
+.posts{
+    background-color: aqua;
+
+    margin: auto;
+    margin-top: 60px;
+    width: 60%;
+}
+
+.post{
+    background-color: rgb(215, 242, 242);
+    padding: 20px 30px;
+    margin-top: 10px;
+    position: relative;
+}
+.post .info{
+    margin-top: 5px;
+}
+.cancelbtn{
+position: absolute;
+top: 0;
+right: 0%;
+padding: 5px 10px;
+border: none;
+background-color: rgb(240, 155, 155);
+}

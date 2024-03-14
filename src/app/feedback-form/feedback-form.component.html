@@ -1,0 +1,26 @@
+<form #feedbackForm="ngForm">
+
+  <h2>Post Feedback </h2>
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" ngModel  required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" ngModel  required>
+    </div>
+    <div class="form-group">
+      <label for="category">Category:</label>
+      <select id="category" name="category"  ngModel required>
+        <option value="General">General</option>
+        <option value="Bug Report">Bug Report</option>
+        <option value="Feature Request">Feature Request</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="comment">Comment:</label>
+      <textarea id="comment" name="comment"  ngModel required></textarea>
+    </div>
+    <button type="submit"class="postfeed" style="width: 100%;margin-top:20px; border-radius: 10px;background-color:rgb(174, 248, 217);border: none ;padding: 10px 13px;cursor: pointer;" (click)="postFeed(feedbackForm.value)">Submit</button>
+  </form>
+  
